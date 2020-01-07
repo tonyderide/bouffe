@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <title>Bouffe</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h2 id="titreProjet" class=""></h2>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            jour
+                        </button>
+                        <div id="dropdown-list" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card" style="width: 30rem;">
+                        <div id="titre" class="card-header">midi</div>
+                        <div class="card-body">
+                            <h5 id="titrePlatMidi" class="card-title">Plat</h5>
+                        </div>
+                        <img id="image" class="card-img-bottom" src="./images/burger.jpg" alt="Repas du midi">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="width: 30rem;">
+                        <div id="titre1" class="card-header ">soir</div>
+                        <div class="card-body">
+                            <h5 id="titrePlatSoir" class="card-title">Plat</h5>
+                        </div>
+                        <img id="image1" class="card-img-bottom" src="./images/burger.jpg" alt="Repas du soir">
+                    </div>
+                </div>
+
+            </div>
+            <form class="col-sm-6">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Recherche par Id</label>
+                    <input id="rechercheParId" type="text" class="form-control" placeholder="Id d'un Plat">
+                    <button id="envoyer" type="submit" class="btn btn-primary">rechercher</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
